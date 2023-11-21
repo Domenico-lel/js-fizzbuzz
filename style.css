@@ -31,3 +31,17 @@ body{
     text-align: center;
     font-size: 20px;
 }
+
+/* stili speciali */
+
+.fizz {
+    color: #0CD6A1;
+}
+
+.buzz {
+    color: #FFD166;
+}
+
+.fizzbuzz {
+    color: #F0466F;
+}
