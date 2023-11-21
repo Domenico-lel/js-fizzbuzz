@@ -35,13 +35,13 @@ body{
 /* stili speciali */
 
 .fizz {
-    color: #0CD6A1;
+    background-color: #0CD6A1;
 }
 
 .buzz {
-    color: #FFD166;
+    background-color: #FFD166;
 }
 
 .fizzbuzz {
-    color: #F0466F;
+    background-color: #F0466F;
 }

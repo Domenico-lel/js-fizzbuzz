@@ -11,13 +11,15 @@ for(let i =  1; i <= 100; i++){
     square.append(i);
     // aggiungere il div al container
     container.append(square)
+
+    // creiamo variabile  
     if (i % 3 === 0 && i % 5 === 0) {
-        document.write('<p class="fizzbuzz">FizzBuzz</p>');
+        document.write('<p class="fizzbuzz square">FizzBuzz</p>');
     } else if (i % 3 === 0) {
-        document.write('<p class="fizz">Fizz</p>');
+        document.write('<p class="fizz square">Fizz</p>');
     } else if (i % 5 === 0) {
-        document.write('<p class="buzz">Buzz</p>');
+        document.write('<p class="buzz square">Buzz</p>');
     } else {
-        document.write('<p class="normal">' + i + '</p>');
+        document.write('<p class="normal square">' + i + '</p>');
     }
 }
