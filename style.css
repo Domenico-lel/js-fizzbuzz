@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1%;
+}
+
+.square{
+    margin-bottom: 10px;
+    width: 9%;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
